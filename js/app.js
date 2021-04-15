@@ -9,13 +9,13 @@ let seguirPunteroMouse = true;
 body.addEventListener("mousemove", (m) => {
   if (seguirPunteroMouse) {
     if (m.clientX < anchoMitad && m.clientY < altoMitad) {
-      monster.src = "../img/idle/2.png";
+      monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/idle/2.png";
     } else if (m.clientX < anchoMitad && m.clientY > altoMitad) {
-      monster.src = "../img/idle/3.png";
+      monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/idle/3.png";
     } else if (m.clientX > anchoMitad && m.clientY < altoMitad) {
-      monster.src = "../img/idle/5.png";
+      monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/idle/5.png";
     } else {
-      monster.src = "../img/idle/4.png";
+      monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/idle/4.png";
     }
   }
 });
@@ -29,13 +29,13 @@ inputUsuario.addEventListener("blur", () => {
 inputUsuario.addEventListener("keyup", () => {
   let caracteres = inputUsuario.value.length;
   if (caracteres >= 0 && caracteres <= 5) {
-    monster.src = "../img/read/1.png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/read/1.png";
   } else if (caracteres >= 6 && caracteres <= 20) {
-    monster.src = "../img/read/2.png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/read/2.png";
   } else if (caracteres >= 20 && caracteres <= 30) {
-    monster.src = "../img/read/3.png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/read/3.png";
   } else {
-    monster.src = "../img/read/4.png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/read/4.png";
   }
 });
 
@@ -55,7 +55,7 @@ inputClave.addEventListener("blur", () => {
   seguirPunteroMouse = false;
   let cont = 7;
   const descubrirojo = setInterval(() => {
-    monster.src = "../img/cover//" + cont + ".png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/cover//" + cont + ".png";
     if (cont > 1) {
       cont--;
     } else {
