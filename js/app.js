@@ -55,7 +55,7 @@ inputClave.addEventListener("blur", () => {
   seguirPunteroMouse = false;
   let cont = 7;
   const descubrirojo = setInterval(() => {
-    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/cover//" + cont + ".png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/cover/" + cont + ".png";
     if (cont > 1) {
       cont--;
     } else {
