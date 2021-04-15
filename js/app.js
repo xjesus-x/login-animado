@@ -43,7 +43,7 @@ inputClave.addEventListener("focus", () => {
   seguirPunteroMouse = false;
   let cont = 1;
   const cubrirojo = setInterval(() => {
-    monster.src = "../img/cover//" + cont + ".png";
+    monster.src = "https://raw.githubusercontent.com/xjesus-x/login-animado/main/img/cover/" + cont + ".png";
     if (cont < 8) {
       cont++;
     } else {
